@@ -3,6 +3,25 @@
   background-color: #F8F9FA;
 }
 
+.whatsapp-ico{
+  fill: white;
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+  margin-right: 1rem;
+  background-color: #4dc247;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+  z-index: 10;
+  transition: 0.2s;
+}
+
+.whatsapp-ico:hover{
+  box-shadow: 2px 2px 11px rgba(0,0,0,0.7);
+  transition: 0.2s;
+}
+
 
  .btn-liquid {
   display: inline-block;
@@ -41,7 +60,6 @@
   width: max-content !important;
   border-radius: 12px;
   margin-bottom: 25px;
-  
   box-shadow:  0px 0px 20px white;
   font: 600 15px/55px "Droid Sans", sans-serif;
   letter-spacing: 0.05em;
@@ -11507,7 +11525,7 @@ margin: 12px auto 0;
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
   content: "";
-  background-image: url("../assets/img/activities.png");
+  background-image: url("../assets/img/portrait_black.png");
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
@@ -11695,7 +11713,7 @@ footer a:hover, footer a:active, footer a:focus {
   right: 10%;
 }
 .masthead .masthead-device-mockup .device-wrapper {
-  max-width: 10rem;
+  max-width: 15rem;
 }
 @media (min-width: 576px) {
   .masthead .masthead-device-mockup .circle {
